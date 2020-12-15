@@ -1,0 +1,13 @@
+.gcsc-ext-loc-banner {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0.4;
+    transition: all 0.2s;
+}
