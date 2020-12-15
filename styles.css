@@ -8,6 +8,7 @@
     padding: 4px 8px;
     border-radius: 4px;
     pointer-events: none;
+    z-index: 2147483647;
     opacity: 0.4;
     transition: all 0.2s;
 }
