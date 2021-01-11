@@ -1,13 +1,20 @@
 {
   "manifest_version": 2,
   "name": "GCSC Local Dev",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
- 
-  "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["scripts.js"],
-    "matches": ["*://*.home/*"]
-  }]
- 
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "scripts.js"
+      ],
+      "matches": [
+        "*://*.home/*",
+        "*://localhost/*"
+      ]
+    }
+  ]
 }
